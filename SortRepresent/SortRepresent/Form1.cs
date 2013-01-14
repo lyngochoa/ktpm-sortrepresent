@@ -14,7 +14,12 @@ namespace SortRepresent
         List<Button> lstButton = new List<Button>();
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();            
+        }
+      
+
+        private void btnTaoMang_Click(object sender, EventArgs e)
+        {
             InitButton_LabelArrayNotSort();
         }
 
@@ -31,7 +36,7 @@ namespace SortRepresent
             {
                 lstButton[i].Text = arrayRandom[i].ToString();
             }
-            
+
             //Init for Label not sort
             lbMangBanDau.Text = GetValueAfterInitButtons(arrayRandom);
         }

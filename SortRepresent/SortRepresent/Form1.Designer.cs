@@ -96,7 +96,6 @@
             this.btn10.Name = "btn10";
             this.btn10.Size = new System.Drawing.Size(75, 38);
             this.btn10.TabIndex = 9;
-            this.btn10.Text = "10";
             this.btn10.UseVisualStyleBackColor = false;
             // 
             // btn9
@@ -106,7 +105,6 @@
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(75, 38);
             this.btn9.TabIndex = 8;
-            this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = false;
             // 
             // btn8
@@ -116,7 +114,6 @@
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(75, 38);
             this.btn8.TabIndex = 7;
-            this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = false;
             // 
             // btn7
@@ -126,7 +123,6 @@
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(75, 38);
             this.btn7.TabIndex = 6;
-            this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = false;
             // 
             // btn6
@@ -136,7 +132,6 @@
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(75, 38);
             this.btn6.TabIndex = 5;
-            this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = false;
             // 
             // btn5
@@ -146,7 +141,6 @@
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(75, 38);
             this.btn5.TabIndex = 4;
-            this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = false;
             // 
             // btn4
@@ -156,7 +150,6 @@
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(75, 38);
             this.btn4.TabIndex = 3;
-            this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = false;
             // 
             // btn3
@@ -166,7 +159,6 @@
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(75, 38);
             this.btn3.TabIndex = 2;
-            this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = false;
             // 
             // btn2
@@ -176,7 +168,6 @@
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(75, 38);
             this.btn2.TabIndex = 1;
-            this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = false;
             // 
             // btn1
@@ -186,7 +177,6 @@
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(75, 39);
             this.btn1.TabIndex = 0;
-            this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = false;
             // 
             // gbTuyBien
@@ -349,6 +339,7 @@
             this.btnTaoMang.TabIndex = 3;
             this.btnTaoMang.Text = "Tạo mảng";
             this.btnTaoMang.UseVisualStyleBackColor = true;
+            this.btnTaoMang.Click += new System.EventHandler(this.btnTaoMang_Click);
             // 
             // btnSapXep
             // 
@@ -388,9 +379,8 @@
             this.lbMangBanDau.ForeColor = System.Drawing.Color.Red;
             this.lbMangBanDau.Location = new System.Drawing.Point(6, 54);
             this.lbMangBanDau.Name = "lbMangBanDau";
-            this.lbMangBanDau.Size = new System.Drawing.Size(164, 20);
+            this.lbMangBanDau.Size = new System.Drawing.Size(0, 20);
             this.lbMangBanDau.TabIndex = 1;
-            this.lbMangBanDau.Text = "1 2 3 4 5 6 7 8 9 10";
             // 
             // lbMangDaSapXep
             // 
