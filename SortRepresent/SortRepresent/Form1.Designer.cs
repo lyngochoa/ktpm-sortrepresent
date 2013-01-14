@@ -62,6 +62,7 @@
             this.lbMangDaSapXep = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnTestDraw = new System.Windows.Forms.Button();
             this.gbSapXep.SuspendLayout();
             this.gbTuyBien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarTocDo)).BeginInit();
@@ -88,6 +89,7 @@
             this.gbSapXep.TabIndex = 0;
             this.gbSapXep.TabStop = false;
             this.gbSapXep.Text = "Sắp xếp";
+            this.gbSapXep.Paint += new System.Windows.Forms.PaintEventHandler(this.gbSapXep_Paint);
             // 
             // btn10
             // 
@@ -411,11 +413,22 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mảng ban đầu:";
             // 
+            // btnTestDraw
+            // 
+            this.btnTestDraw.Location = new System.Drawing.Point(544, 23);
+            this.btnTestDraw.Name = "btnTestDraw";
+            this.btnTestDraw.Size = new System.Drawing.Size(109, 23);
+            this.btnTestDraw.TabIndex = 7;
+            this.btnTestDraw.Text = "testDrawRect";
+            this.btnTestDraw.UseVisualStyleBackColor = true;
+            this.btnTestDraw.Click += new System.EventHandler(this.btnTestDraw_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(874, 500);
+            this.Controls.Add(this.btnTestDraw);
             this.Controls.Add(this.gbKetQua);
             this.Controls.Add(this.btnTamDung);
             this.Controls.Add(this.btnSapXep);
@@ -474,6 +487,7 @@
         private System.Windows.Forms.Button btnTuTaoThuatToan;
         private System.Windows.Forms.Button btnThemDLL;
         private System.Windows.Forms.RadioButton rbtnSapXepNoiBot;
+        private System.Windows.Forms.Button btnTestDraw;
     }
 }
 
