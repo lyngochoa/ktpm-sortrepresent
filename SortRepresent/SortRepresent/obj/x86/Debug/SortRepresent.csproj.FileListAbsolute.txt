@@ -12,3 +12,4 @@ D:\ktpm\SortRepresent\SortRepresent\bin\Debug\SortRepresent.pdb
 D:\ktpm\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.Form1.resources
 D:\ktpm\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.Properties.Resources.resources
 D:\ktpm\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.csproj.GenerateResource.Cache
+D:\ktpm\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.csprojResolveAssemblyReference.cache
