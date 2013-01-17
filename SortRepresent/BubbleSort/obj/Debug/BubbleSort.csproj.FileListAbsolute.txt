@@ -1,0 +1,7 @@
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\BubbleSort\bin\Debug\BubbleSort.dll
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\BubbleSort\bin\Debug\BubbleSort.pdb
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\BubbleSort\bin\Debug\SortAlgorithm.dll
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\BubbleSort\bin\Debug\SortAlgorithm.pdb
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\BubbleSort\obj\Debug\BubbleSort.dll
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\BubbleSort\obj\Debug\BubbleSort.pdb
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\BubbleSort\obj\Debug\BubbleSort.csprojResolveAssemblyReference.cache

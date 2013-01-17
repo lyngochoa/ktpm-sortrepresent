@@ -1,0 +1,5 @@
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortAlgorithm\bin\Debug\SortAlgorithm.dll
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortAlgorithm\bin\Debug\SortAlgorithm.pdb
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.dll
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.pdb
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.csprojResolveAssemblyReference.cache

@@ -7,15 +7,17 @@ namespace SortRepresent
 {
     class InitMethod
     {
-        public List<int> GetArrayRandom()
+        public void GetArrayRandom()
         {
-            List<int> arr = new List<int>();
+            VirtualMachine machine = VirtualMachine.Instance;
+
+            machine.cleanElement();
+
             Random rd = new Random();
             for (int i = 0; i < 10; i++)
             {
-                arr.Add(rd.Next(-100,100));
+                machine.addElement(rd.Next(-100,100));
             }
-            return arr;
         }
     }
 }
