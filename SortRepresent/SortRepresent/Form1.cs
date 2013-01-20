@@ -114,8 +114,10 @@ namespace SortRepresent
         private void LoadPlugin()
         { 
             //Load local plugin
-            IPlugin temp = new SelectionSort();
-            plugin.Add(temp);
+            //IPlugin temp = new SelectionSort();
+            //plugin.Add(temp);
+
+            IPlugin temp = null;
 
             //External plugin
             string[] files = System.IO.Directory.GetFiles(
@@ -341,5 +343,84 @@ namespace SortRepresent
         }
 
         #endregion
+
+        /*
+         * Thuật toán của selectionSort, Lấy demo tạm
+         */
+        String needXML = "<start>"
+                            + "<var>int32 i</var>"
+                                + "<assign>i=0</assign>"
+                                + "<var>int32 n</var>"
+                                    + "<assign>n=length</assign>	"
+                                        + "<for>"
+                                        + "<from>i</from>"
+                                            + "<to>n</to>"
+                                                + "<do>"
+                                                    + "<var>int32 j</var><assign>j=i+1</assign><for><from>j</from><to>n</to><do>"
+                    + "<if><condition><type>array</type><input>i,j</input><compare>></compare></condition><do>"
+                            + "<swap><type>array</type><input>i,j</input></swap></do></if>"
+                    + "<assign>j=j+1</assign></do></for><assign>i=i+1</assign></do></for></start>";
+
+        private void btnTuTaoThuatToan_Click(object sender, EventArgs e)
+        {
+            FormImportAlgorithm frmImport = new FormImportAlgorithm(this);
+            frmImport.ShowDialog();
+            try
+            {
+                if (checkExistencePluginWithClassName("SelectionSort"))
+                {
+                    InitMethod initMethod = new InitMethod();
+
+                    //Gọi Phương thức tạo plugin với input là 3 parametters 
+                    initMethod.BuildPluginAuto("SelectionSort", "Sắp xếp chọn", needXML);
+
+                    this.Refresh();
+                }
+                else
+                {
+                    MessageBox.Show("ClassName đã tồn tại !");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private bool checkExistencePluginWithClassName(string _className)
+        {
+            try
+            {
+                //External plugin
+                string[] files = System.IO.Directory.GetFiles(
+                    Application.StartupPath + @"\Addons\", "*.iplugin");
+
+                foreach (string f in files)
+                {
+                    // Load assembly from each file
+                    Assembly asm = Assembly.LoadFile(f);
+                    string className = System.IO.Path.GetFileName(f)
+                        .Replace(@".iplugin", "") + ".PluginClass";
+
+                    Type[] types = asm.GetTypes();
+                    foreach (Type t in types)
+                    {
+                        if (t.FullName == className && className.IndexOf(_className) != -1)
+                        {
+                            return false;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            return true;
+        }
+
+
+
+
     }
 }

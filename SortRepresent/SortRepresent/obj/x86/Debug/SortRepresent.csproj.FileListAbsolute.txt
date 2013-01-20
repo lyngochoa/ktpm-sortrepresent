@@ -8,3 +8,14 @@ D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepres
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.csproj.GenerateResource.Cache
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.exe
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.pdb
+D:\KTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.exe
+D:\KTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.pdb
+D:\KTPM\SortRepresent\SortRepresent\bin\Debug\SortRepresent.exe
+D:\KTPM\SortRepresent\SortRepresent\bin\Debug\SortRepresent.pdb
+D:\KTPM\SortRepresent\SortRepresent\bin\Debug\SortAlgorithm.dll
+D:\KTPM\SortRepresent\SortRepresent\bin\Debug\SortAlgorithm.pdb
+D:\KTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.csprojResolveAssemblyReference.cache
+D:\KTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.Form1.resources
+D:\KTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.Properties.Resources.resources
+D:\KTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.csproj.GenerateResource.Cache
+D:\KTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.FormImportAlgorithm.resources

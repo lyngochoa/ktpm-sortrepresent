@@ -276,6 +276,7 @@
             this.btnTuTaoThuatToan.TabIndex = 2;
             this.btnTuTaoThuatToan.Text = "Tự tạo thuật toán";
             this.btnTuTaoThuatToan.UseVisualStyleBackColor = true;
+            this.btnTuTaoThuatToan.Click += new System.EventHandler(this.btnTuTaoThuatToan_Click);
             // 
             // btnThemDLL
             // 
