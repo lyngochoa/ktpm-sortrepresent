@@ -19,3 +19,14 @@ D:\KTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.Form1.resources
 D:\KTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.Properties.Resources.resources
 D:\KTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.csproj.GenerateResource.Cache
 D:\KTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.FormImportAlgorithm.resources
+D:\newKTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.exe
+D:\newKTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.pdb
+D:\newKTPM\SortRepresent\SortRepresent\bin\Debug\SortRepresent.exe
+D:\newKTPM\SortRepresent\SortRepresent\bin\Debug\SortRepresent.pdb
+D:\newKTPM\SortRepresent\SortRepresent\bin\Debug\SortAlgorithm.dll
+D:\newKTPM\SortRepresent\SortRepresent\bin\Debug\SortAlgorithm.pdb
+D:\newKTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.csprojResolveAssemblyReference.cache
+D:\newKTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.Form1.resources
+D:\newKTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.FormImportAlgorithm.resources
+D:\newKTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.Properties.Resources.resources
+D:\newKTPM\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.csproj.GenerateResource.Cache

@@ -8,3 +8,8 @@ D:\KTPM\SortRepresent\SortAlgorithm\bin\Debug\SortAlgorithm.pdb
 D:\KTPM\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.csprojResolveAssemblyReference.cache
 D:\KTPM\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.dll
 D:\KTPM\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.pdb
+D:\newKTPM\SortRepresent\SortAlgorithm\bin\Debug\SortAlgorithm.dll
+D:\newKTPM\SortRepresent\SortAlgorithm\bin\Debug\SortAlgorithm.pdb
+D:\newKTPM\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.csprojResolveAssemblyReference.cache
+D:\newKTPM\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.dll
+D:\newKTPM\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.pdb

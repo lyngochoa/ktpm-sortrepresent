@@ -12,3 +12,10 @@ D:\KTPM\SortRepresent\BubbleSort\bin\Debug\SortAlgorithm.pdb
 D:\KTPM\SortRepresent\BubbleSort\obj\Debug\BubbleSort.csprojResolveAssemblyReference.cache
 D:\KTPM\SortRepresent\BubbleSort\obj\Debug\BubbleSort.dll
 D:\KTPM\SortRepresent\BubbleSort\obj\Debug\BubbleSort.pdb
+D:\newKTPM\SortRepresent\BubbleSort\bin\Debug\BubbleSort.dll
+D:\newKTPM\SortRepresent\BubbleSort\bin\Debug\BubbleSort.pdb
+D:\newKTPM\SortRepresent\BubbleSort\bin\Debug\SortAlgorithm.dll
+D:\newKTPM\SortRepresent\BubbleSort\bin\Debug\SortAlgorithm.pdb
+D:\newKTPM\SortRepresent\BubbleSort\obj\Debug\BubbleSort.csprojResolveAssemblyReference.cache
+D:\newKTPM\SortRepresent\BubbleSort\obj\Debug\BubbleSort.dll
+D:\newKTPM\SortRepresent\BubbleSort\obj\Debug\BubbleSort.pdb

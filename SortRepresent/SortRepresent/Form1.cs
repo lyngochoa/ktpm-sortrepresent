@@ -373,7 +373,7 @@ namespace SortRepresent
 
                     //Gọi Phương thức tạo plugin với input là 3 parametters 
                     initMethod.BuildPluginAuto("SelectionSort", "Sắp xếp chọn", needXML);
-
+                    LoadPlugin();
                     this.Refresh();
                 }
                 else
