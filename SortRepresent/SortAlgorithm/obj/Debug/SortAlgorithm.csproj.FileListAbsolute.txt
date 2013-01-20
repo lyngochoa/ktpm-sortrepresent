@@ -3,3 +3,8 @@ D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepres
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.dll
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.pdb
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.csprojResolveAssemblyReference.cache
+D:\KTPM\SortRepresent\SortAlgorithm\bin\Debug\SortAlgorithm.dll
+D:\KTPM\SortRepresent\SortAlgorithm\bin\Debug\SortAlgorithm.pdb
+D:\KTPM\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.csprojResolveAssemblyReference.cache
+D:\KTPM\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.dll
+D:\KTPM\SortRepresent\SortAlgorithm\obj\Debug\SortAlgorithm.pdb
