@@ -158,6 +158,7 @@ namespace SortRepresent
         private void LoadPlugin()
         {
             plugin.Clear();
+            flowLayoutPanelThuatToan.Controls.Clear();
             //Load local plugin
             plugin.Add(new SelectionSort());
 
@@ -527,6 +528,10 @@ namespace SortRepresent
 
         public bool ThemThuatToan(string tenThuatToan, string xml)
         {
+            xml = xml.Replace("\n", String.Empty);
+            xml = xml.Replace("\r", String.Empty);
+            xml = xml.Replace("\t", String.Empty);
+
             try
             {
                 if (checkExistencePluginWithClassName(tenThuatToan))
@@ -534,11 +539,16 @@ namespace SortRepresent
                     InitMethod initMethod = new InitMethod();
 
                     //Gọi Phương thức tạo plugin với input là 3 parametters 
-                    initMethod.BuildPluginAuto(tenThuatToan, tenThuatToan, xml);
-                    LoadPlugin();
-                    this.Refresh();
+                    bool b = initMethod.BuildPluginAuto(tenThuatToan, tenThuatToan, xml);
 
-                    return true;
+                    if (b)
+                    {
+                        LoadPlugin();
+                        //this.Refresh();
+                        return true;
+                    }
+
+                    
                 }
                 else
                 {

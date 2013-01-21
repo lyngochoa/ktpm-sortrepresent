@@ -24,7 +24,7 @@ namespace SortRepresent
             }
         }
 
-        public void BuildPluginAuto(String nameClass, String nameReturn, String strXml)
+        public bool BuildPluginAuto(String nameClass, String nameReturn, String strXml)
         {
             string sourcecode =
                TEMPLATE_CODE.Replace("{0}", nameClass)
@@ -51,13 +51,12 @@ namespace SortRepresent
 
             if (rs.Errors.Count > 0)
             {
-                MessageBox.Show(rs.Errors[rs.Errors.Count - 1].ErrorText);
+                //MessageBox.Show(rs.Errors[rs.Errors.Count - 1].ErrorText);
+
+                return false;
             }
-            else
-            {
-                // TODO: Do job right here
-                MessageBox.Show("Build thanh cong!");
-            }
+
+            return true;
         }
 
         public static string TEMPLATE_CODE = @"
