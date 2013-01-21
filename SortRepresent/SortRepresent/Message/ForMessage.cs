@@ -26,9 +26,9 @@ namespace SortRepresent.Message
         }
 
 
-        public void PossMessage(int iStartIdx, int iEndIdx)
+        public void PostMessage(int iStartIdx, int iEndIdx)
         {
-            f.drawRectangle(iStartIdx, iEndIdx);
+            f.recDrawing(iStartIdx, iEndIdx);
         }
 
 

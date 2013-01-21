@@ -16,21 +16,49 @@ namespace SortRepresent.Syntaxs
         public override void Do(System.Xml.XmlNode node)
         {
             //base.Do(node);
-            XmlNode conditionNode = node.ChildNodes.Item(0);
+            XmlNodeList conditionNode = node.ChildNodes;
 
-            bool b = getConditionValue(conditionNode);
+            int n = conditionNode.Count;
 
-            if (b)
+            bool b = true;
+
+            Syntaxs.Syntax syn;
+
+            VirtualMachine machine = VirtualMachine.Instance;
+
+            for (int i = 0; i < n; i++)
             {
-                XmlNode doNode = node.ChildNodes.Item(1);
+                if (conditionNode[i].Name == "condition")
+                {
+                    syn = machine.getSyntax(conditionNode[i].Name);
 
-                VirtualMachine machine = VirtualMachine.Instance;
+                    bool temp = syn.DoCondition(conditionNode[i]);
 
-                Syntaxs.Syntax syn = machine.getSyntax(doNode.Name);
+                    b = b && temp;
+                }
+                else
+                {
+                    if (b)
+                    {
+                        XmlNode doNode = conditionNode[i];
 
-                syn.Do(doNode);
+                        syn = machine.getSyntax(doNode.Name);
+
+                        syn.Do(doNode);
+
+                        break;
+                    }
+                    else
+                    {
+                        if (conditionNode[i].Name == "else")
+                        {
+                            syn = machine.getSyntax(conditionNode[i].ChildNodes[0].Name);
+
+                            syn.Do(conditionNode[i].ChildNodes[0]);
+                        }
+                    }
+                }
             }
-
         }
 
         private static bool getConditionValue(XmlNode node)

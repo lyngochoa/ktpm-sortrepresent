@@ -26,9 +26,16 @@ namespace SortRepresent.Message
             get { return "swap"; }
         }
 
-        public void PossMessage(int iStartIdx, int iEndIdx)
+        public void PostMessage(int iStartIdx, int iEndIdx)
         {
-            f.moveButtonToChange(iStartIdx, iEndIdx);
+            if (iStartIdx > iEndIdx)
+            {
+                f.moveButtonToChange(iEndIdx, iStartIdx);
+            }
+            else
+            {
+                f.moveButtonToChange(iStartIdx, iEndIdx);
+            }
         }
     }
 }

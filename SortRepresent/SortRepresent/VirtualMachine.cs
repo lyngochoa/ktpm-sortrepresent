@@ -22,6 +22,8 @@ namespace SortRepresent
             syn.Add(new DoSyntax());
             syn.Add(new IfSyntax());
             syn.Add(new SwapSyntax());
+            syn.Add(new ConditionSyntax());
+            syn.Add(new WhileSyntax());
         }
 
         public static VirtualMachine Instance

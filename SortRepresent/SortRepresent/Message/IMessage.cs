@@ -12,6 +12,6 @@ namespace SortRepresent.Message
         string Name
         { get; }
 
-        void PossMessage(int iStartIdx, int iEndIdx);
+        void PostMessage(int iStartIdx, int iEndIdx);
     }
 }
