@@ -57,13 +57,13 @@ namespace SortRepresent
 
             bool b = f.ThemThuatToan(name, xml);
 
-            if (b == true)
+            if (b)
             {
-                MessageBox.Show("Bạn đã thêm thuật toán thành công!");
+                MessageBox.Show("Bạn đã tạo thành công!");
             }
             else
             {
-                MessageBox.Show("Vui lòng kiểm tra lại thông tin vừa nhập!");
+                MessageBox.Show("Vui lòng kiếm tra lại thông tin!");
             }
         }
     }
