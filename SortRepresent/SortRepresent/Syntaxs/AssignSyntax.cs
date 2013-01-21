@@ -13,6 +13,8 @@ namespace SortRepresent.Syntaxs
             this._name = "assign";
         }
 
+        int iOperator = -1;
+
         public override void Do(XmlNode node)
         {
             //base.Do();
@@ -27,7 +29,9 @@ namespace SortRepresent.Syntaxs
             string value = strVar.Substring(strVar.IndexOf('=') + 1);
 
             int idxOperator = -1;
+            
             idxOperator = OperatorIdx(value);
+
 
             if (idxOperator == -1)
             {
@@ -50,10 +54,36 @@ namespace SortRepresent.Syntaxs
 
                 x2 = getIntFromString(input2);
 
-                int result = x1 + x2;
+
+                int result = getResult(x1, x2);
 
                 machine.setValue(name, result.ToString());
             }
+        }
+
+        private int getResult(int x1, int x2)
+        {
+            if (iOperator == 1)
+            {
+                return x1 + x2;
+            }
+
+            if (iOperator == 2)
+            {
+                return x1 - x2;
+            }
+
+            if (iOperator == 3)
+            {
+                return x1 * x2;
+            }
+
+            if (iOperator == 4)
+            {
+                return x1 / x2;
+            }
+
+            return 0;
         }
 
         private static int getIntFromString(string input)
@@ -74,7 +104,7 @@ namespace SortRepresent.Syntaxs
             return x1;
         }
 
-        private static int OperatorIdx(string value)
+        private int OperatorIdx(string value)
         {
             int idxOperator = -1;
 
@@ -90,8 +120,29 @@ namespace SortRepresent.Syntaxs
                     if (idxOperator == -1)
                     {
                         idxOperator = value.IndexOf('/');
+
+                        if (idxOperator == -1)
+                        {
+                            return -1;
+                        }
+                        else
+                        {
+                            iOperator = 4;
+                        }
+                    }
+                    else
+                    {
+                        iOperator = 3;
                     }
                 }
+                else
+                {
+                    iOperator = 2;
+                }
+            }
+            else
+            {
+                iOperator = 1;
             }
 
             return idxOperator;

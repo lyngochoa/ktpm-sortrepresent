@@ -5,9 +5,9 @@ using System.Text;
 
 namespace SortRepresent.Message
 {
-    class EndForMessage : IMessage
+    class SelectionMessage : IMessage
     {
-        public Form1 f;
+        Form1 f;
 
         public Form1 F
         {
@@ -23,12 +23,12 @@ namespace SortRepresent.Message
 
         public string Name
         {
-            get { return "endfor"; }
+            get { return "select"; }
         }
 
         public void PostMessage(int iStartIdx, int iEndIdx)
         {
-            f.remove(iStartIdx, iEndIdx);
+            f.ChangeColorButton(iStartIdx);
         }
     }
 }

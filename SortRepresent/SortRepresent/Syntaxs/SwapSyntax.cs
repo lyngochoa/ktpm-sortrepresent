@@ -34,7 +34,7 @@ namespace SortRepresent.Syntaxs
                 machine.setElement(n, t2);
                 machine.setElement(m, t1);
 
-                PossMessage(Name, n, m);
+                PostMessage(Name, n, m);
             }
             else 
             {

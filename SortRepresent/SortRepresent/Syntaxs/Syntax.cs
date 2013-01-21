@@ -32,14 +32,20 @@ namespace SortRepresent.Syntaxs
         {
         }
 
+        virtual public bool DoCondition(XmlNode node)
+        {
+            return false;
+        }
+
         virtual public Syntax Clone()
         {
             return null;
         }
 
-        public void PossMessage(string name, int x, int y)
+        public void PostMessage(string name, int x, int y)
         {
-            ControlCenter.PossMessage(name, x, y);
+            ControlCenter.PostMessage(name, x, y);
+            Thread.Sleep(100);
         }
     }
 }

@@ -15,6 +15,8 @@ namespace SortRepresent.Message
             listMessage.Add(new ForMessage());
             listMessage.Add(new EndForMessage());
             listMessage.Add(new SwapMessage());
+            listMessage.Add(new SelectionMessage());
+            listMessage.Add(new DeselectMessage());
 
             int n = listMessage.Count;
 
@@ -26,13 +28,13 @@ namespace SortRepresent.Message
             form.ShowDialog();
         }
 
-        public static void PossMessage(string p, int iStartIdx, int iEndIdx)
+        public static void PostMessage(string p, int iStartIdx, int iEndIdx)
         {
             int idx = FindMessageFromName(p);
 
             if (idx != -1)
             {
-                listMessage[idx].PossMessage(iStartIdx, iEndIdx);
+                listMessage[idx].PostMessage(iStartIdx, iEndIdx);
             }
         }
 

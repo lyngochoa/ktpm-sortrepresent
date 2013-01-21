@@ -31,25 +31,43 @@ namespace SortRepresent.Syntaxs
 
             Syntaxs.Syntax syn = machine.getSyntax(child.Name);
 
-            if (iStartIdx != iEndIdx)
+            if (iStartIdx < iEndIdx)
             {
-                PossMessage(Name, iStartIdx, iEndIdx - 1);
+                PostMessage(Name, iStartIdx, iEndIdx - 1);
+            }
+            else
+            {
+                if (iStartIdx > iEndIdx)
+                {
+                    PostMessage(Name, iEndIdx + 1, iStartIdx);
+                }
             }
 
             for (int Idx = iStartIdx; Idx != iEndIdx; )
             {
+                PostMessage("select", Idx, Idx);
+
                 syn.Do(child);
+
+                PostMessage("deselect", Idx, Idx);
 
                 Idx = Int32.Parse(machine.getVar(sStartIdx).Value);
             }
 
-            if (iStartIdx != iEndIdx)
+            if (iStartIdx > iEndIdx)
             {
-                PossMessage("endfor", iStartIdx, iEndIdx - 1);
+                PostMessage("endfor", iEndIdx + 1, iStartIdx);
             }
             else 
             {
-                PossMessage("endfor", iStartIdx - 1, iEndIdx - 1);
+                if (iStartIdx < iEndIdx)
+                {
+                    PostMessage("endfor", iStartIdx, iEndIdx - 1);
+                }
+                else
+                {
+                    PostMessage("endfor", iStartIdx - 1, iEndIdx - 1);
+                }
             }
         }
     }

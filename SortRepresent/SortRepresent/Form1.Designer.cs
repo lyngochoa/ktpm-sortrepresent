@@ -28,17 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gbSapXep = new System.Windows.Forms.GroupBox();
-            this.btn10 = new System.Windows.Forms.Button();
-            this.btn9 = new System.Windows.Forms.Button();
-            this.btn8 = new System.Windows.Forms.Button();
-            this.btn7 = new System.Windows.Forms.Button();
-            this.btn6 = new System.Windows.Forms.Button();
-            this.btn5 = new System.Windows.Forms.Button();
-            this.btn4 = new System.Windows.Forms.Button();
-            this.btn3 = new System.Windows.Forms.Button();
-            this.btn2 = new System.Windows.Forms.Button();
-            this.btn1 = new System.Windows.Forms.Button();
             this.gbTuyBien = new System.Windows.Forms.GroupBox();
             this.tbSoPhanTu = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -59,123 +48,11 @@
             this.lbMangDaSapXep = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.gbSapXep.SuspendLayout();
             this.gbTuyBien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarTocDo)).BeginInit();
             this.gbThuatToan.SuspendLayout();
             this.gbKetQua.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // gbSapXep
-            // 
-            this.gbSapXep.Controls.Add(this.btn10);
-            this.gbSapXep.Controls.Add(this.btn9);
-            this.gbSapXep.Controls.Add(this.btn8);
-            this.gbSapXep.Controls.Add(this.btn7);
-            this.gbSapXep.Controls.Add(this.btn6);
-            this.gbSapXep.Controls.Add(this.btn5);
-            this.gbSapXep.Controls.Add(this.btn4);
-            this.gbSapXep.Controls.Add(this.btn3);
-            this.gbSapXep.Controls.Add(this.btn2);
-            this.gbSapXep.Controls.Add(this.btn1);
-            this.gbSapXep.Location = new System.Drawing.Point(12, 67);
-            this.gbSapXep.Name = "gbSapXep";
-            this.gbSapXep.Size = new System.Drawing.Size(850, 128);
-            this.gbSapXep.TabIndex = 0;
-            this.gbSapXep.TabStop = false;
-            this.gbSapXep.Text = "Sắp xếp";
-            this.gbSapXep.Paint += new System.Windows.Forms.PaintEventHandler(this.gbSapXep_Paint);
-            // 
-            // btn10
-            // 
-            this.btn10.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btn10.Location = new System.Drawing.Point(751, 81);
-            this.btn10.Name = "btn10";
-            this.btn10.Size = new System.Drawing.Size(75, 38);
-            this.btn10.TabIndex = 9;
-            this.btn10.UseVisualStyleBackColor = false;
-            // 
-            // btn9
-            // 
-            this.btn9.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btn9.Location = new System.Drawing.Point(670, 81);
-            this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(75, 38);
-            this.btn9.TabIndex = 8;
-            this.btn9.UseVisualStyleBackColor = false;
-            // 
-            // btn8
-            // 
-            this.btn8.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btn8.Location = new System.Drawing.Point(589, 81);
-            this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(75, 38);
-            this.btn8.TabIndex = 7;
-            this.btn8.UseVisualStyleBackColor = false;
-            // 
-            // btn7
-            // 
-            this.btn7.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btn7.Location = new System.Drawing.Point(508, 81);
-            this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(75, 38);
-            this.btn7.TabIndex = 6;
-            this.btn7.UseVisualStyleBackColor = false;
-            // 
-            // btn6
-            // 
-            this.btn6.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btn6.Location = new System.Drawing.Point(427, 80);
-            this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(75, 38);
-            this.btn6.TabIndex = 5;
-            this.btn6.UseVisualStyleBackColor = false;
-            // 
-            // btn5
-            // 
-            this.btn5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btn5.Location = new System.Drawing.Point(346, 80);
-            this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(75, 38);
-            this.btn5.TabIndex = 4;
-            this.btn5.UseVisualStyleBackColor = false;
-            // 
-            // btn4
-            // 
-            this.btn4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btn4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btn4.Location = new System.Drawing.Point(265, 80);
-            this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(75, 38);
-            this.btn4.TabIndex = 3;
-            this.btn4.UseVisualStyleBackColor = false;
-            // 
-            // btn3
-            // 
-            this.btn3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btn3.Location = new System.Drawing.Point(184, 81);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(75, 38);
-            this.btn3.TabIndex = 2;
-            this.btn3.UseVisualStyleBackColor = false;
-            // 
-            // btn2
-            // 
-            this.btn2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btn2.Location = new System.Drawing.Point(103, 80);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(75, 38);
-            this.btn2.TabIndex = 1;
-            this.btn2.UseVisualStyleBackColor = false;
-            // 
-            // btn1
-            // 
-            this.btn1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btn1.Location = new System.Drawing.Point(21, 80);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(75, 39);
-            this.btn1.TabIndex = 0;
-            this.btn1.UseVisualStyleBackColor = false;
             // 
             // gbTuyBien
             // 
@@ -255,6 +132,8 @@
             this.trackBarTocDo.Name = "trackBarTocDo";
             this.trackBarTocDo.Size = new System.Drawing.Size(318, 45);
             this.trackBarTocDo.TabIndex = 0;
+            this.trackBarTocDo.Value = 1;
+            this.trackBarTocDo.Scroll += new System.EventHandler(this.trackBarTocDo_Scroll);
             // 
             // gbThuatToan
             // 
@@ -263,16 +142,16 @@
             this.gbThuatToan.Controls.Add(this.flowLayoutPanelThuatToan);
             this.gbThuatToan.Location = new System.Drawing.Point(447, 215);
             this.gbThuatToan.Name = "gbThuatToan";
-            this.gbThuatToan.Size = new System.Drawing.Size(415, 273);
+            this.gbThuatToan.Size = new System.Drawing.Size(473, 273);
             this.gbThuatToan.TabIndex = 2;
             this.gbThuatToan.TabStop = false;
             this.gbThuatToan.Text = "Thuật toán";
             // 
             // btnTuTaoThuatToan
             // 
-            this.btnTuTaoThuatToan.Location = new System.Drawing.Point(209, 231);
+            this.btnTuTaoThuatToan.Location = new System.Drawing.Point(246, 231);
             this.btnTuTaoThuatToan.Name = "btnTuTaoThuatToan";
-            this.btnTuTaoThuatToan.Size = new System.Drawing.Size(200, 32);
+            this.btnTuTaoThuatToan.Size = new System.Drawing.Size(221, 32);
             this.btnTuTaoThuatToan.TabIndex = 2;
             this.btnTuTaoThuatToan.Text = "Tự tạo thuật toán";
             this.btnTuTaoThuatToan.UseVisualStyleBackColor = true;
@@ -282,7 +161,7 @@
             // 
             this.btnThemDLL.Location = new System.Drawing.Point(6, 231);
             this.btnThemDLL.Name = "btnThemDLL";
-            this.btnThemDLL.Size = new System.Drawing.Size(200, 32);
+            this.btnThemDLL.Size = new System.Drawing.Size(234, 32);
             this.btnThemDLL.TabIndex = 2;
             this.btnThemDLL.Text = "Thêm thuật toán từ DLL";
             this.btnThemDLL.UseVisualStyleBackColor = true;
@@ -291,7 +170,7 @@
             // 
             this.flowLayoutPanelThuatToan.Location = new System.Drawing.Point(6, 19);
             this.flowLayoutPanelThuatToan.Name = "flowLayoutPanelThuatToan";
-            this.flowLayoutPanelThuatToan.Size = new System.Drawing.Size(403, 206);
+            this.flowLayoutPanelThuatToan.Size = new System.Drawing.Size(461, 206);
             this.flowLayoutPanelThuatToan.TabIndex = 1;
             // 
             // btnTaoMang
@@ -322,8 +201,9 @@
             this.btnTamDung.Name = "btnTamDung";
             this.btnTamDung.Size = new System.Drawing.Size(150, 33);
             this.btnTamDung.TabIndex = 5;
-            this.btnTamDung.Text = "Tạm dùng";
+            this.btnTamDung.Text = "Tạm dừng";
             this.btnTamDung.UseVisualStyleBackColor = true;
+            this.btnTamDung.Click += new System.EventHandler(this.btnTamDung_Click);
             // 
             // gbKetQua
             // 
@@ -355,9 +235,8 @@
             this.lbMangDaSapXep.ForeColor = System.Drawing.Color.Red;
             this.lbMangDaSapXep.Location = new System.Drawing.Point(6, 104);
             this.lbMangDaSapXep.Name = "lbMangDaSapXep";
-            this.lbMangDaSapXep.Size = new System.Drawing.Size(164, 20);
+            this.lbMangDaSapXep.Size = new System.Drawing.Size(0, 20);
             this.lbMangDaSapXep.TabIndex = 1;
-            this.lbMangDaSapXep.Text = "1 2 3 4 5 6 7 8 9 10";
             // 
             // label2
             // 
@@ -381,18 +260,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(874, 500);
+            this.ClientSize = new System.Drawing.Size(932, 500);
             this.Controls.Add(this.gbKetQua);
             this.Controls.Add(this.btnTamDung);
             this.Controls.Add(this.btnSapXep);
             this.Controls.Add(this.btnTaoMang);
             this.Controls.Add(this.gbThuatToan);
             this.Controls.Add(this.gbTuyBien);
-            this.Controls.Add(this.gbSapXep);
             this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.gbSapXep.ResumeLayout(false);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.gbTuyBien.ResumeLayout(false);
             this.gbTuyBien.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarTocDo)).EndInit();
@@ -405,17 +283,6 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox gbSapXep;
-        private System.Windows.Forms.Button btn10;
-        private System.Windows.Forms.Button btn9;
-        private System.Windows.Forms.Button btn8;
-        private System.Windows.Forms.Button btn7;
-        private System.Windows.Forms.Button btn6;
-        private System.Windows.Forms.Button btn5;
-        private System.Windows.Forms.Button btn4;
-        private System.Windows.Forms.Button btn3;
-        private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.GroupBox gbTuyBien;
         private System.Windows.Forms.GroupBox gbThuatToan;
         private System.Windows.Forms.Button btnTaoMang;
