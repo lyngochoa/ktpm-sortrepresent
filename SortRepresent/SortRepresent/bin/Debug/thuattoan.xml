@@ -2,7 +2,7 @@
 	<var>int32 i</var>
 	<assign>i=0</assign>
 	<var>int32 n</var>
-	<assign>n=length</assign>
+	<assign>n=length</assign>	
 	<for>
 		<from>i</from>
 		<to>n</to>
