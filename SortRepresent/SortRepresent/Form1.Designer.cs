@@ -165,6 +165,7 @@
             this.btnThemDLL.TabIndex = 2;
             this.btnThemDLL.Text = "Thêm thuật toán từ DLL";
             this.btnThemDLL.UseVisualStyleBackColor = true;
+            this.btnThemDLL.Click += new System.EventHandler(this.btnThemDLL_Click);
             // 
             // flowLayoutPanelThuatToan
             // 

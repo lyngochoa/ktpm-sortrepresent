@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SortRepresent.DoubleBufferPanel" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DoubleBufferPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.ElementProperties" Collapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAIBASAAAAAAEIAAEAAABAAAAAAACAgAAAAYAA=</HashCode>
+      <FileName>ElementProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Form1" Collapsed="true">
+    <Position X="16.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABFAIghINSAjARUkwEDBVAyahIAAEAIEoIcJoQISIAo=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.InitMethod" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>InitMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.PointInLoop" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAgAAAAAAAAACABAAA=</HashCode>
+      <FileName>PointInLoop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Program" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.ThemThuatToan" Collapsed="true">
+    <Position X="20.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAEEgCAAABAAAACAAAACAAAAAACQAQAAAIAAAIA=</HashCode>
+      <FileName>ThemThuatToan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Variable" Collapsed="true">
+    <Position X="22.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAAAgAAAAAQAAAAAAAQAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>Variable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.VirtualMachine" Collapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIEAwAAAAABAAEIAAAAAECBAAAAgQAgAAAAAAAA=</HashCode>
+      <FileName>VirtualMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Message.ControlCenter" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAAAAAAEAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Message\ControlCenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Message.DeselectMessage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>Message\DeselectMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SortRepresent.Message.EndForMessage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>Message\EndForMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SortRepresent.Message.ForMessage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>Message\ForMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SortRepresent.Message.SelectionMessage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>Message\SelectionMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SortRepresent.Message.SwapMessage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>Message\SwapMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SortRepresent.Plugin.SelectionSort" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Plugin\SelectionSort.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SortRepresent.Properties.Resources" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Properties.Settings" Collapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Syntaxs.AssignSyntax" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="SortRepresent.Syntaxs.Syntax" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.625" Y="1.062" />
+        <Point X="5.625" Y="1.618" />
+        <Point X="5.125" Y="1.618" />
+        <Point X="5.125" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAACAAAQAAAAAAIAAAAgAA=</HashCode>
+      <FileName>Syntaxs\AssignSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Syntaxs.ConditionSyntax" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="SortRepresent.Syntaxs.Syntax" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.062" Y="1.062" />
+        <Point X="6.062" Y="2.596" />
+        <Point X="5.25" Y="2.596" />
+        <Point X="5.25" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntaxs\ConditionSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Syntaxs.DoSyntax" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="SortRepresent.Syntaxs.Syntax" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.188" Y="1.062" />
+        <Point X="6.188" Y="2.596" />
+        <Point X="6.875" Y="2.596" />
+        <Point X="6.875" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntaxs\DoSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Syntaxs.ForSyntax" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="SortRepresent.Syntaxs.Syntax" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="0.75" />
+        <Point X="2.624" Y="0.75" />
+        <Point X="2.624" Y="3.062" />
+        <Point X="2.75" Y="3.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntaxs\ForSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Syntaxs.IfSyntax" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="SortRepresent.Syntaxs.Syntax" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.562" Y="1.062" />
+        <Point X="6.562" Y="1.373" />
+        <Point X="8.938" Y="1.373" />
+        <Point X="8.938" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntaxs\IfSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Syntaxs.SwapSyntax" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="SortRepresent.Syntaxs.Syntax" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.375" Y="1.062" />
+        <Point X="6.375" Y="1.652" />
+        <Point X="7.062" Y="1.652" />
+        <Point X="7.062" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntaxs\SwapSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Syntaxs.Syntax" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAEAAAAAAQAQACAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Syntaxs\Syntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Syntaxs.VarSyntax" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="SortRepresent.Syntaxs.Syntax" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="0.812" />
+        <Point X="9.656" Y="0.812" />
+        <Point X="9.656" Y="3.062" />
+        <Point X="9.5" Y="3.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntaxs\VarSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortRepresent.Syntaxs.WhileSyntax" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="SortRepresent.Syntaxs.Syntax" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.438" Y="1.062" />
+        <Point X="5.438" Y="1.414" />
+        <Point X="3.354" Y="1.414" />
+        <Point X="3.354" Y="1.75" />
+        <Point X="3.438" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntaxs\WhileSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SortRepresent.Message.IMessage" Collapsed="true">
+    <Position X="12.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Message\IMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
