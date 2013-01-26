@@ -618,7 +618,7 @@ namespace SortRepresent
                 }
             }
 
-            this.Close();
+            //this.Close();
         }
 
         private void trackBarTocDo_Scroll(object sender, EventArgs e)
@@ -694,6 +694,11 @@ namespace SortRepresent
                     }
                 }
             }
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
         }
 
     }

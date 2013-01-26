@@ -6,7 +6,7 @@ D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepres
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.csprojResolveAssemblyReference.cache
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.Form1.resources
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.Properties.Resources.resources
+D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.ThemThuatToan.resources
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.csproj.GenerateResource.Cache
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.exe
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.pdb
-D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.ThemThuatToan.resources
