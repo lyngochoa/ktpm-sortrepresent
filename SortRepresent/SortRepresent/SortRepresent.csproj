@@ -61,9 +61,7 @@
     <Compile Include="Message\DeselectMessage.cs" />
     <Compile Include="Message\EndForMessage.cs" />
     <Compile Include="Message\ForMessage.cs" />
-    <Compile Include="Message\ForSubcriber.cs" />
     <Compile Include="Message\IMessage.cs" />
-    <Compile Include="Message\ISubscriber.cs" />
     <Compile Include="Message\SelectionMessage.cs" />
     <Compile Include="Message\SwapMessage.cs" />
     <Compile Include="Plugin\SelectionSort.cs" />
@@ -102,9 +100,7 @@
     <EmbeddedResource Include="ThemThuatToan.resx">
       <DependentUpon>ThemThuatToan.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Addons\BubbleSort.iplugin">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -126,7 +122,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Addons\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

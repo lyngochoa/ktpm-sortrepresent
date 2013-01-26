@@ -11,6 +11,7 @@ using SortRepresent.Plugin;
 using System.Reflection;
 using System.Xml;
 using System.Threading;
+using System.IO;
 
 namespace SortRepresent
 {
@@ -190,19 +191,24 @@ namespace SortRepresent
             int n = plugin.Count;
             for (int i = 0; i < n; i++)
             {
-                RadioButton rbtn = new RadioButton();
-                rbtn.AutoSize = true;
-                rbtn.Name = "rbtn" + i.ToString();
-                rbtn.Size = new System.Drawing.Size(91, 17);
-                rbtn.TabIndex = 1000 + i;
-                rbtn.TabStop = true;
-                rbtn.Text = plugin[i].getName();
-                rbtn.UseVisualStyleBackColor = true;
-
-                rbtn.Click += new EventHandler(rbtnThuatToan_Click); 
-
-                flowLayoutPanelThuatToan.Controls.Add(rbtn);
+                AddAlgoRadioButton(i);
             }
+        }
+
+        private void AddAlgoRadioButton(int i)
+        {
+            RadioButton rbtn = new RadioButton();
+            rbtn.AutoSize = true;
+            rbtn.Name = "rbtn" + i.ToString();
+            rbtn.Size = new System.Drawing.Size(91, 17);
+            rbtn.TabIndex = 1000 + i;
+            rbtn.TabStop = true;
+            rbtn.Text = plugin[i].getName();
+            rbtn.UseVisualStyleBackColor = true;
+
+            rbtn.Click += new EventHandler(rbtnThuatToan_Click);
+
+            flowLayoutPanelThuatToan.Controls.Add(rbtn);
         }
 
         Thread thread;
@@ -646,6 +652,47 @@ namespace SortRepresent
             {
                 thread.Resume();
                 btnTamDung.Text = "Tạm dừng";
+            }
+        }
+
+        private void btnThemDLL_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog opPluginFile = new OpenFileDialog();
+
+            opPluginFile.Filter = "SortAlgo Files (.iplugin)|*.iplugin";
+
+            DialogResult result = opPluginFile.ShowDialog();
+
+            if (result == DialogResult.OK)
+            {
+                string pathDll = opPluginFile.FileName;
+
+                IPlugin temp = null;
+
+                Assembly asm = Assembly.LoadFile(pathDll);
+                string className = System.IO.Path.GetFileName(pathDll)
+                    .Replace(@".iplugin", "") + ".PluginClass";
+
+                Type[] types = asm.GetTypes();
+                foreach (Type t in types)
+                {
+                    if (t.FullName == className)
+                    {
+                        temp = Activator.CreateInstance(t) as IPlugin;
+                        plugin.Add(temp);
+
+                        AddAlgoRadioButton(plugin.Count - 1);
+
+                        int n = pathDll.Length - 8;
+
+                        while (pathDll[n] != '\\')
+                        {
+                            n--;
+                        }
+
+                        File.Copy(pathDll, Application.StartupPath + @"\Addons\" + pathDll.Substring(n + 1));
+                    }
+                }
             }
         }
 

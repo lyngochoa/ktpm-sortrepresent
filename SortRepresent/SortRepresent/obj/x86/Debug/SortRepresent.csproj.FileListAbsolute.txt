@@ -9,5 +9,4 @@ D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepres
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.csproj.GenerateResource.Cache
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.exe
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.pdb
-D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\bin\Debug\Addons\BubbleSort.iplugin
 D:\hoc tap\nam IV\Kien truc phan mem\Do an cuoi ky\ktpm-sortrepresent\SortRepresent\SortRepresent\obj\x86\Debug\SortRepresent.ThemThuatToan.resources
